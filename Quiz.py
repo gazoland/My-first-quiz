@@ -1,9 +1,49 @@
 
-from Questions import NFL
-from Questions import astronomy
-from Questions import countries
-from Questions import series
-from Questions import music
+
+class NFL:
+
+    def __init__(self, quest, ans1, ans2, tip1, tip2):
+        self.quest = quest
+        self.ans1 = ans1
+        self.ans2 = ans2
+        self.tip1 = tip1
+        self.tip2 = tip2
+
+class astronomy:
+
+    def __init__(self, quest, ans1, ans2, tip1, tip2):
+        self.quest = quest
+        self.ans1 = ans1
+        self.ans2 = ans2
+        self.tip1 = tip1
+        self.tip2 = tip2
+
+class countries:
+
+    def __init__(self, quest, ans1, ans2, tip1, tip2):
+        self.quest = quest
+        self.ans1 = ans1
+        self.ans2 = ans2
+        self.tip1 = tip1
+        self.tip2 = tip2
+
+class series:
+
+    def __init__(self, quest, ans1, ans2, tip1, tip2):
+        self.quest = quest
+        self.ans1 = ans1
+        self.ans2 = ans2
+        self.tip1 = tip1
+        self.tip2 = tip2
+
+class music:
+
+    def __init__(self, quest, ans1, ans2, tip1, tip2):
+        self.quest = quest
+        self.ans1 = ans1
+        self.ans2 = ans2
+        self.tip1 = tip1
+        self.tip2 = tip2
 
 cat1 = 'nfl'
 cat2 = 'astronomy'
